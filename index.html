@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Libros</title>
+</head>
+
+<body>
+
+
+
+    <div id="info-user" style="display: none;">
+        <p id="user"></p> <br>
+        <button id="salir">Salir</button>
+
+    </div>
+
+
+    <h1>Estos son los libros disponibles en la biblioteca:</h1> <br>
+
+    <div id="listado"></div>
+
+    <div id="filtro-rango">
+
+        <p>Ordenar por:</p>
+        <button id="sortPagDesc">Paginas Desc.</button>
+        <button id="sortPagAsc">Paginas Asc.</button>
+        <button id="sortIdDesc">Id desc</button>
+
+        <p>Cantidad de páginas:</p>
+        <input type="number" placeholder="mínimo" id="min">
+        <br><br>
+        <input type="number" placeholder="máximo" id="max">
+        <br><br>
+        <button id="filtrar">Filtrar</button>
+        <button id="limpiar">Limpiar</button>
+    </div>
+
+    <script src="scripts/init.js"></script>
+    <script src="scripts/libros.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "titulo": "Cuentos de amor, de locura y de muerte",
+        "isbn": "ISBN - 902 - 3467",
+        "editorial": "Editorial A",
+        "paginas": "200"
+    },
+    {
+        "id": "2",
+        "titulo": "La tregua",
+        "isbn": "ISBN - 902 - 9234",
+        "editorial": "Editorial B",
+        "paginas": "300"
+    },
+    {
+        "id": "3",
+        "titulo": "El pozo",
+        "isbn": "ISBN - 902 - 9245",
+        "editorial": "Editorial C",
+        "paginas": "250"
+    },
+    {
+        "id": "4",
+        "titulo": "Pequeña ala",
+        "isbn": "ISBN - 902 - 3999",
+        "editorial": "Editorial B",
+        "paginas": "550"
+    },
+    {
+        "id": "5",
+        "titulo": "Las venas abiertas de América Latina",
+        "isbn": "ISBN - 902 - 0932",
+        "editorial": "Editorial A",
+        "paginas": "400"
+    }
+]

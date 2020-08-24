@@ -1,0 +1,25 @@
+function showProducts (array){
+
+    for (let i = 0; i < array.length; i++){
+        let product = array[i];
+
+        if(((minPrecio == undefined) || (minPrecio != undefined && parseInt(product.cost) >= minPrecio)) && 
+        ((maxPrecio == undefined) || (maxPrecio != undefined && parseInt(product.cost) <= maxPrecio))){
+
+
+        htmlContentToAppend +=
+
+        `     
+        Nombre: `+ product.name +` 
+        <br>
+        Precio: `+ product.currency +` `+ product.cost +`
+        <br>
+        Descripción: `+ product.description +`
+        <br>
+        <br>
+        `
+
+        document.getElementById("prod").innerHTML = htmlContentToAppend;
+    }
+}
+}

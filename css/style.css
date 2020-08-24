@@ -1,0 +1,12 @@
+.signin, #listado {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    margin: auto;
+    background-color: beige;
+    border: 1px black solid; 
+  }
+
+.invalid{
+  background-color: red;
+}
